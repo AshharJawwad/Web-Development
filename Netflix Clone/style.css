@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(assets/Img/US-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_00121511-337d-4096-a35a-410ac453bf78_small.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(2600px, 100vw);
+  height: 70vh;
+  position: relative;
+}
+
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.44;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  margin: auto;
+  max-width: 60vw;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+nav img {
+  color: red;
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin-top: 140px;
+  position: relative;
+  font-family: "Martel sans", sans-serif;
+  gap: 23px;
+}
+
+.hero > :nth-child(1) {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.default-cache {
+  z-index: 1;
+}
+
+.default-cache1 {
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);
+  box-shadow: 0 -8px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin: 0px 74px;
+  color: white;
+  width: 90vw;
+  padding: 22px;
+}
+
+.hero .default-cache-img img {
+    width: 96px;
+    height: 96px;
+    margin: 0 24px;
+}
+
+:not(svg) {
+    transform-origin: 0 0;
+}
+
+.default-text-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.default-text-btn> :nth-child(1) {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.default-text-btn> :nth-child(2) {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.default-text-btn button {
+    display: flex;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    background: transparent;
+    cursor: pointer;
+}
+
+.default-text-btn button image {
+    text-align: center;
+    color: blue;
+}
